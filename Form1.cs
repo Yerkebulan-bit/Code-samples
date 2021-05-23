@@ -72,13 +72,3 @@ namespace FIS___Final_Project
 
     }
 }
-/*
-            SELECT
-	        cities.id as city_id, cities.name as city_name, cities.country_id as city_country_id,
-	        countries.id as country_id, countries.name as country_name
-            FROM cities
-            LEFT JOIN countries ON countries.id=cities.country_id
-
-            SELECT Book.Name, Book.Genre, Book.Rating, Book.Author_ID, Author.ID FROM Book LEFT JOIN Author ON Author.ID = Book.Author_ID
-            Select Name, Genre, Rating from Book INNER JOIN Author ON Book.Author_ID = Book.ID Where Name Like '%" + textBox1.Text + "%'
-             */
